@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C-Sharp-Tests", "C-Sharp-Tests.csproj", "{C0D44264-D5F2-4A67-93D0-A6725DB3D0D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0409EB31-991A-40DF-BB8A-30177405CA18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NHL.Tests", "NHL.Tests", "{0BE9640A-CA65-4E5C-A008-ACC1FF55CA61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCalculator", "src\NHL.Tests\NHL.Tests.Application\SimpleCalculator.csproj", "{3144341C-5D32-4278-A6E1-7475ACAE540B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCalculator.Tests", "src\NHL.Tests\NHL.Tests.Application.Tests\SimpleCalculator.Tests.csproj", "{7D71AC68-4198-4269-9955-BF40E89B0074}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0D44264-D5F2-4A67-93D0-A6725DB3D0D7}.Debug|x86.ActiveCfg = Debug|x86
+		{C0D44264-D5F2-4A67-93D0-A6725DB3D0D7}.Debug|x86.Build.0 = Debug|x86
+		{C0D44264-D5F2-4A67-93D0-A6725DB3D0D7}.Release|x86.ActiveCfg = Release|x86
+		{C0D44264-D5F2-4A67-93D0-A6725DB3D0D7}.Release|x86.Build.0 = Release|x86
+		{3144341C-5D32-4278-A6E1-7475ACAE540B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3144341C-5D32-4278-A6E1-7475ACAE540B}.Debug|x86.Build.0 = Debug|Any CPU
+		{3144341C-5D32-4278-A6E1-7475ACAE540B}.Release|x86.ActiveCfg = Release|Any CPU
+		{3144341C-5D32-4278-A6E1-7475ACAE540B}.Release|x86.Build.0 = Release|Any CPU
+		{7D71AC68-4198-4269-9955-BF40E89B0074}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7D71AC68-4198-4269-9955-BF40E89B0074}.Debug|x86.Build.0 = Debug|Any CPU
+		{7D71AC68-4198-4269-9955-BF40E89B0074}.Release|x86.ActiveCfg = Release|Any CPU
+		{7D71AC68-4198-4269-9955-BF40E89B0074}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0BE9640A-CA65-4E5C-A008-ACC1FF55CA61} = {0409EB31-991A-40DF-BB8A-30177405CA18}
+		{3144341C-5D32-4278-A6E1-7475ACAE540B} = {0BE9640A-CA65-4E5C-A008-ACC1FF55CA61}
+		{7D71AC68-4198-4269-9955-BF40E89B0074} = {0BE9640A-CA65-4E5C-A008-ACC1FF55CA61}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F48B6447-111F-44BB-AF18-4AF16A4BDB05}
+	EndGlobalSection
+EndGlobal
